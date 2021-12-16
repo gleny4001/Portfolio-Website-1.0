@@ -216,66 +216,44 @@ height: 25em;
 /* 
 projects icon */
 
-a.btn-social,
-.btn-social
+
+a.btn-project-icon,
+.btn-project-icon
 {
     border-radius: 50%;
     color: #ffffff !important;
     display: inline-block;
     height: 54px;
     line-height: 54px;
-    margin: 8px 4px;
+    margin: 8px 10px;
     text-align: center;
     text-decoration: none;
     transition: background-color .3s;
     width: 54px;
+    border: none; 
+    outline:none;
+
 }
 
-.btn-social .fa,.btn-social i
+.btn-project-icon .fa,.btn-project-icon i
 {
     backface-visibility: hidden;
-   
     transform: scale(1);
     transition: all .25s;
   
 }
-.btn-social:hover,.btn-social:focus
+.btn-project-icon:hover,.btn-project-icon:focus
 {
     color: #fff;
     outline: none;
     text-decoration: none;
 }
-.btn-social:hover .fa,.btn-social:focus .fa,.btn-social:hover i,.btn-social:focus i
+.btn-project-icon:hover .fa,.btn-project-icon:focus .fa,.btn-project-icon:hover i,.btn-project-icon:focus i
 {
  
-    
     transform: scale(1.3);
+}
 
-}
-.btn-social.btn-xs
-{
-    font-size: 9px;
-    height: 24px;
-    line-height: 13px;
-    margin: 6px 2px;
-    width: 24px;
-}
-.btn-social.btn-sm
-{
-    font-size: 13px;
-    height: 36px;
-    line-height: 18px;
-    margin: 6px 2px;
-    width: 36px;
-}
-.btn-social.btn-lg
-{
-    font-size: 22px;
-    height: 72px;
-    line-height: 40px;
-    margin: 10px 6px;
-    width: 72px;
-}
 
 .btn-project-1
 {
@@ -327,6 +305,8 @@ a.btn-social,
 .project-videos{
   position:relative;
   width:80%;
+  height: 300px;
+  object-fit: cover;
   border-radius: 15px 50px; 
 }
 
@@ -417,7 +397,9 @@ a.btn-social,
     transition: all .4s;
 }
 
-
+.contact-text{
+  color:#212121;
+}
 
 
 

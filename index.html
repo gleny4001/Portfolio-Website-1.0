@@ -13,6 +13,7 @@
 	 crossorigin="anonymous">
 
 	</script>
+
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,10 +37,10 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<li class="navbar-item"> <a class="nav-link" href="">Home</a> </li>
-							<li class="navbar-item"> <a class="nav-link" href="">About</a> </li>
-							<li class="navbar-item"> <a class="nav-link" href="">Work</a> </li>
-							<li class="navbar-item"> <a class="nav-link" href="">Contact</a> </li>
+							<li class="navbar-item"> <a class="nav-link" href="#">Home</a> </li>
+							<li class="navbar-item"> <a class="nav-link" href="#about-page">About</a> </li>
+							<li class="navbar-item"> <a class="nav-link" href="#works">Work</a> </li>
+							<li class="navbar-item"> <a class="nav-link" href="#contact">Contact</a> </li>
               <li class="navbar-item"> <button class="btn btn-md btn-outline-secondary" type="button">Resume</button> </li>
               
 					</ul>
@@ -55,7 +56,7 @@
 				</div>
 				<div class="title-video-text" sizes="(max-width: 599px) 80vw,40vw">
 					<h1>Hi, I'm Glen</h1>
-					<h4>A full-Stack devloper and a camper</h5 class="skill-text">
+					<h4>A full-Stack devloper and <span class="identity-title">a camper</span></h5 class="skill-text">
           <div class="contact-button">
             <button type="button" class="btn btn-primary"><i class="far fa-comment-alt"></i> Contact me</button>
             </div>
@@ -130,7 +131,7 @@
       </div>
     </div>
   </section>
-
+<!-- work portofolio -->
   <section id="works">
     <div class="container">
       <div class="row">
@@ -146,11 +147,11 @@
           <div class="row">
             <div class="work-page col-12">
 
-                <a href="" target="_blank" class="btn-social btn-project-1"><i class="fa fa-facebook"></i></a>
-                <a href="" target="_blank" class="btn-social btn-project-2"><i class="fa fa-facebook"></i></a>
-                <a href="" target="_blank" class="btn-social btn-project-3"><i class="fa fa-facebook"></i></a>
-                <a href="" target="_blank" class="btn-social btn-project-4"><i class="fa fa-facebook"></i></a>
-                <a href="" target="_blank" class="btn-social btn-project-5"><i class="fa fa-facebook"></i></a>
+                <button class="btn-project-icon btn-project-1" data-src="/images/project-1-video.mp4" ><i class="fa fa-facebook"></i></a>
+                <button class="btn-project-icon btn-project-2" data-src="/images/project-2-video.mp4"><i class="fa fa-facebook"></i></a>
+                <button class="btn-project-icon btn-project-3" data-src="/images/project-3-video.mp4" ><i class="fa fa-facebook"></i></a>
+                <button class="btn-project-icon btn-project-4" data-src="/images/project-4-video.mp4" ><i class="fa fa-facebook"></i></a>
+                <button class="btn-project-icon btn-project-5" data-src="/images/project-5-video.mp4"><i class="fa fa-facebook"></i></a>
             </div>
 
              <div class="work-page col-12">
@@ -190,9 +191,9 @@
                          <h2>Send Message</h2>
                      </div><!-- /.title -->
                      <form action="inc/sendemail.php" class="contact-form" novalidate="novalidate">
-                         <input type="text" name="name" placeholder="Your full name">
-                         <input type="text" name="email" placeholder="Your email address">
-                         <textarea name="message" placeholder="What you are looking for?"></textarea>
+                         <input class=".contact-text" type="text" name="name" placeholder="Your full name">
+                         <input class=".contact-text" type="text" name="email" placeholder="Your email address">
+                         <textarea class=".contact-text" name="message" placeholder="What you are looking for?"></textarea>
                          <button type="submit" class="thm-btn yellow-bg">Submit</button>
                          <div class="form-result"></div><!-- /.form-result -->
                      </form>
@@ -213,5 +214,8 @@
   <p>Made and Designed by Glen Yang 2021</p>
 
 </section>
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
    </body>
 </html>
