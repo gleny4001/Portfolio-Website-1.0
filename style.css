@@ -240,7 +240,6 @@ a.btn-project-icon,
     backface-visibility: hidden;
     transform: scale(1);
     transition: all .25s;
-  
 }
 .btn-project-icon:hover,.btn-project-icon:focus
 {
@@ -257,11 +256,11 @@ a.btn-project-icon,
 
 .btn-project-1
 {
-    background-color: #4c70ba;
+    background-color: #E4CDA7;
 }
 .btn-project-1:hover
 {
-    background-color: #4c70ba;
+    background-color: #C3B091;
 
 }
 
