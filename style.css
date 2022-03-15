@@ -1,6 +1,6 @@
 html,body
 {
-  min-width: 490px;
+  overflow:auto;
   font-family: "Montserrat, sans-serif";
 }
 
@@ -33,6 +33,8 @@ h5{
 #title {
   background-color:#222831;
 }
+
+
 
 .btn-md{
   font-size: 13px;
@@ -111,9 +113,7 @@ h5{
   margin: 0px;
   overflow: hidden;
 }
-.contact-button{
-  padding:5%;
-}
+
 
 /* About me */
 
@@ -240,7 +240,6 @@ a.btn-project-icon,
     backface-visibility: hidden;
     transform: scale(1);
     transition: all .25s;
-  
 }
 .btn-project-icon:hover,.btn-project-icon:focus
 {
@@ -257,11 +256,11 @@ a.btn-project-icon,
 
 .btn-project-1
 {
-    background-color: #4c70ba;
+    background-color: #E4CDA7;
 }
 .btn-project-1:hover
 {
-    background-color: #4c70ba;
+    background-color: #C3B091;
 
 }
 
