@@ -40,7 +40,7 @@
 							<li class="navbar-item"> <a class="nav-link" href="#about-page">About</a> </li>
 							<li class="navbar-item"> <a class="nav-link" href="#works">Work</a> </li>
 							<li class="navbar-item"> <a class="nav-link" href="#contact">Contact</a> </li>
-              <li class="navbar-item"> <button class="btn btn-md btn-outline-secondary" type="button">Resume</button> </li>
+              <li class="navbar-item"> <a class="btn btn-md btn-outline-secondary" href="https://docs.google.com/document/d/e/2PACX-1vTdbmNxUatRVqavMRg0KpN9nhxUxYeLDgcZzFaXdI21nQgxC-IDRZwZoCnyk5WgeznURd8UuQ1611IO/pub" type="button">Resume</a> </li>
               
 					</ul>
 				</div>
@@ -55,7 +55,7 @@
 				</div>
 				<div class="title-video-text" sizes="(max-width: 599px) 80vw,40vw">
 					<h1>Hi, I'm Glen</h1>
-					<h4>A full-Stack devloper and <span class="identity-title">a camper</span></h4 class="skill-text">
+					<h4>A Front-end devloper and <span class="identity-title">a camper</span></h4 class="skill-text">
             </div>
          </div>
 </div>
@@ -144,10 +144,8 @@
             <div class="work-page col-12">
 
                 <button class="btn-project-icon btn-project-1" data-src="/images/project-1-video.mp4" ><i class="fas fa-bread-slice"></i></button>
-                <button class="btn-project-icon btn-project-2" data-src="/images/project-2-video.mp4">b</button>
-                <button class="btn-project-icon btn-project-3" data-src="/images/project-3-video.mp4" >c</button>
-                <button class="btn-project-icon btn-project-4" data-src="/images/project-4-video.mp4" >d</button>
-                <button class="btn-project-icon btn-project-5" data-src="/images/project-5-video.mp4">e</button>
+                <button class="btn-project-icon btn-project-2" data-src="/images/project-2-video.mp4"><i class="fa-solid fa-gamepad"></i></button>
+              
             </div>
 
              <div class="work-page col-12">
@@ -161,10 +159,21 @@
 
         </div>
 
-         <div class="col">
+         <div class="work-info">
            
             <div class="work-page spinning-circle"></div>
-          
+            <div class="work-description">
+              <div class="work-text">
+              <h2>Beachside Bakery</h2>
+              <p>Craving sweets? Check out a local bakery in Huntington Beach, CA. This is a website made with react. 
+              The customer can add bake goods to a cart and place orders with this website.</p>
+              <h3>Made with</h3>
+              </div>
+              <i class="fa-brands fa-html5 fa-3x"></i>
+              <i class="fa-brands fa-css3-alt fa-3x"></i>
+              <i class="fa-brands fa-react fa-3x"></i>
+              <i class="fa-brands fa-js-square fa-3x"></i>
+            </div>
         </div>
 
       </div>
@@ -179,30 +188,32 @@
 
      
 <div class="thm-container">
-         <div class="row">
-             <div class="col-sm-6">
+  
+             <div>
                  <div class="contact-form-content">
                      <div class="title">
                          <span>Contact me</span>
                          <h2>Send Message</h2>
                      </div><!-- /.title -->
-                     <form class="contact-form" novalidate="novalidate">
-                         <input class=".contact-text" type="text" name="name" placeholder="Your full name">
-                         <input class=".contact-text" type="text" name="email" placeholder="Your email address">
-                         <textarea class=".contact-text" name="message" placeholder="What you are looking for?"></textarea>
-                         <button type="submit" class="thm-btn yellow-bg">Submit</button>
-                         <div class="form-result"></div><!-- /.form-result -->
+                     <form action="https://formsubmit.co/gleny4001@gmail.com" class="contact-form" method="POST">
+                         <input class=".contact-text" type="text" name="name" placeholder="Your full name" required>
+                         <input class=".contact-text" type="text" name="email" placeholder="Your email address" required>
+                         <textarea class=".contact-text" name="message" placeholder="Your mesage" required></textarea>
+                       <input type="hidden" name="_captcha" value="false">
+                       <input type="hidden" name="_next" value="https://portofolio-website-10.gleny4001.repl.co/">
+                         <button type="submit" class="thm-btn">Submit</button>
                      </form>
                  </div><!-- /.contact-form-content -->
                 
              </div><!-- /.col-md-8 -->
-               <div class="col-sm-6">
-                      <p>gleny4001@gmail.com</p>
-                       <p></p>
-                        <p></p>
-            
-                  </div>
-         </div><!-- /.row -->
+            <div class="contact-info-page">
+              <div>
+                      <h3 class="contact-info"><i class="fa-solid fa-envelope contact-fa"></i>gleny4001@gmail.com</h3>
+                      <h3 class="contact-info"><i class="fa-solid fa-phone contact-fa"></i>+8210-7452-6787</h3>
+                      <h3 class="contact-info"><i class="fa-solid fa-location-dot contact-fa"></i>San Diego, CA</h3>
+                </div>
+            </div>
+      
      </div>
   
 
@@ -213,7 +224,7 @@
 
 <section id="footer">
 
-  <p>Made and Designed by Glen Yang 2021</p>
+  <p>Made and Designed by Glen Yang 2022</p>
 
 </section>
 <!-- jquery -->
