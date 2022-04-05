@@ -132,6 +132,9 @@ h5{
  
 }
 
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
 
 /* Skills */
 #skills{
@@ -209,7 +212,7 @@ height: 25em;
   
   }
   from {
-    transform: rotate(0) scale(.95);
+    transform: rotate(0) scale(1);
   }
 }
 
@@ -343,6 +346,7 @@ a.btn-project-icon,
     justify-content: space-between;
     flex-wrap:wrap;
    
+   
 }
 
 .contact-form-content {
@@ -408,7 +412,7 @@ a.btn-project-icon,
 .contact-info
 {
   color:white;
-  padding:.3em;
+  padding: 1rem 0.3rem;
 }
 
 .contact-fa{
@@ -416,10 +420,8 @@ a.btn-project-icon,
 }
 
 @media only screen and (max-width: 935px) {
-  .contact-info-page{
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap:wrap;
+  .thm-container{
+    justify-content:center;
   }
 }
 
