@@ -38,7 +38,7 @@ h5{
 
 .btn-md{
   font-size: 13px;
-  color: rgba(58, 133, 191, 0.75);
+  color: rgba(58, 133, 191, 0.75) !important;
   border: 2px solid;
   border-radius: 40px;
   background: transparent;
@@ -53,16 +53,6 @@ h5{
   text-align:center;
 }
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:focus {
-    background-color:#252A34;
-    border-color:#f1f1f1;
-    padding:1% 3%;
-  
-}
 
 
 
@@ -226,6 +216,11 @@ height: 25em;
   padding:2% 0;
 }
 
+.btn-group a{
+  color:white;
+}
+
+
 
 
 
@@ -282,16 +277,16 @@ a.btn-project-icon,
 
 .btn-project-2
 {
-    background-color: #FFE6BC;
+    background-color: #02448a;
 }
 .btn-project-2:hover
 {
-    background-color: #E4CDA7;
+    background-color: #011F3F;
 
 }
 .btn-project-3
 {
-    background-color: #FFE6BC;
+    background-color: #E82127;
 }
 .btn-project-3:hover
 {
